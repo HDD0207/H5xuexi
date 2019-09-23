@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+  <head>
+  	<%= require('html-loader!./layout/head-common.html')%>
+  	<title><%= htmlWebpackPlugin.options.title %> - TMailStore电商平台</title>
+  </head>
+  <body>
+  	<%= require('html-loader!./layout/nav.html')%>
+  	<%= require('html-loader!./layout/header.html')%>
+  	<%= require('html-loader!./layout/nav-side.html')%>
+    <%= require('html-loader!./layout/footer.html')%>
+  </body>
 </html>
-</body>
