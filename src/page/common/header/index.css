@@ -3,7 +3,7 @@
 	left: 60px;
 	top: 34px;
 	display: block;
-	font-style: 36px;
+	font-size:  36px;
 	color: #c60023;
 	font-weight: bold;
 	text-decoration: none;
@@ -20,7 +20,7 @@
 	border: 2px solid #c60023;
 	outline: none;
 }
-.header .seach-con .seach-btn{
+.header .search-con .search-btn{
 	position: absolute;
 	height: 44px;
 	width: 80px;

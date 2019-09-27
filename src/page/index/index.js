@@ -9,6 +9,11 @@ var navSide = require('@/common/nav-side/index.js');
 
 var _mm = require('util/mm.js');
 
+navSide.init({
+	name:'user-center'
+});
+
+//====================
 /*_mm.request({
 	//url: './xx.do', //错误接口❌
 	url: '/product/list.do?keyword=1',
@@ -19,7 +24,7 @@ var _mm = require('util/mm.js');
 		console.log(errMsg);
 	}
 });*/
-
+//====================
 // console.log(_mm.getUrlParam('test'));
 
 // 提供模板

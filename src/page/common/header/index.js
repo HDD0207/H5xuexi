@@ -11,10 +11,10 @@ var header = {
 	},
 	bindEvent:function(){
 		var _this = this;
-		$('search-btn').click(function(){
+		$('.search-btn').click(function(){
 			_this.searchSubmit();
 		})
-		$('search-input').keyup(function(e){
+		$('.search-input').keyup(function(e){
 			if (e.keyCode === 13) {
 				_this.searchSubmit();
 			}
@@ -28,11 +28,12 @@ var header = {
 	},
 	searchSubmit:function(){
 		var keyword = $.trim($('#search-btn').val());
+		console.log("keyword = ",keyword)
 		if (keyword) {
-			alert("hahaha");
-			window.location.href = './list.html?keyword=' +keyword;
+			alert("🤪🤪");
+			window.location.href = './list.html?keyword=' + keyword;
 		}else{
-			alert("lueluelue");
+			alert("😋😋");
 			_mm.goHome();
 		}
 	}
